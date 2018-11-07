@@ -1,0 +1,19 @@
+{
+    "name": "omar/mockery",
+    "authors": [
+        {
+            "name": "Omar",
+            "email": "omar.makled@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {},
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "^7.4"
+    }
+}
