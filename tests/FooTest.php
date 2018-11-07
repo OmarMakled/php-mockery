@@ -17,8 +17,6 @@ class FooTest extends TestCase
         $m->shouldReceive('query')
             ->once()
             ->andReturn([1]);
-
-        // $m = new Foo;
         $this->assertEquals(1, $m->count());
     }
 }
